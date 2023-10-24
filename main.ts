@@ -1,7 +1,7 @@
 
 /**
  * Blocks for driving Motor connected to ports M1, M2 */
-//% weight=100 color=#30D5C8 icon="\uf21c"
+//% weight=100 color=#008080 icon="\uf21c"
 namespace QuadRobo {
     /************************************************************************************************************************************************
     * micro:bit motor driver blocks 
