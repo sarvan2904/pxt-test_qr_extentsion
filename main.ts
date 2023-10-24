@@ -2,7 +2,7 @@
 /**
  * Blocks for driving Motor connected to ports M1, M2 */
 //% weight=100 color=#FFA500 icon="\uf21c"
-namespace quadrobotics_motor_driver {
+namespace qr_motor_driver {
     /************************************************************************************************************************************************
     * micro:bit motor driver blocks 
     ************************************************************************************************************************************************/
@@ -15,10 +15,10 @@ namespace quadrobotics_motor_driver {
 }
 
 export enum Motors {
-    //%blockId=quadrobotics_motordriver_motor_one
+    //%blockId=qr_motordriver_motor_one
     //% block="motor 1"
     Motor1,
-    //%blockId=quadrobotics_motordriver_motor_two
+    //%blockId=qr_motordriver_motor_two
     //% block="motor 2"
     Motor2
 }
@@ -74,7 +74,7 @@ export function motorOn(motor: Motors, dir: MotorDirection, speed: number): void
  * Turns off the motor specified by eMotors
  * @param motor :which motor to turn off
  */
-//% blockId=quadrobotics_motordriver_motor_off
+//% blockId=qr_motordriver_motor_off
 //%block="turn off %motor"
 export function motorOff(motor: Motors): void {
     switch (motor) {
