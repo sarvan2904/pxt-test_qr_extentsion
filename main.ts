@@ -8,7 +8,7 @@
 //% weight=100 color=#FFA500 icon="\uf21c"
 namespace hello {
     //% block
-    export function helloWorld() {
+    export function helloWor() {
 
     }
 
@@ -16,7 +16,7 @@ namespace hello {
     // block text with spaces
 
     //% block
-    export function camlCaseTwo() {
+    export function camlCase() {
 
     }
 }
