@@ -1,15 +1,14 @@
 {
-    "name": "Test_QR_Extentsion",
-    "description": "",
+    "name": "pxt-quadrobotics",
+    "description": "Quad Robotics Motor Test",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
