@@ -1,5 +1,5 @@
 {
-    "name": "pxt-quadrobotics",
+    "name": "pxt-test_qr_extentsion",
     "description": "Quad Robotics Motor Test",
     "dependencies": {
         "core": "*"
